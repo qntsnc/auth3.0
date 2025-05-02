@@ -5,7 +5,7 @@ node_modules
 npm-debug.log
 *.log
 
-# Системные файлы
+# Системные файлы/
 .DS_Store
 
 # Git
