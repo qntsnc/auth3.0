@@ -1,0 +1,20 @@
+# Исключаем node_modules — ставим внутри контейнера
+node_modules
+
+# Отладочные и лог-файлы
+npm-debug.log
+*.log
+
+# Системные файлы
+.DS_Store
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+
+# Кэш
+.cache

@@ -37,6 +37,6 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Что-то пошло не так!' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Сервер запущен на порту: ${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Сервер запущен на порту: ${PORT} и доступен на всех интерфейсах`);
 });
